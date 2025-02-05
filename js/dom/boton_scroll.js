@@ -10,7 +10,7 @@ export default function scrollTopButton(btn) {
     let scrollTop = w.scrollY || d.documentElement.scrollTop;
     console.log(w.scrollY, d.documentElement.scrollTop);
 
-    if(scrollTop > 200) {
+    if(scrollTop > 600) {
       $scrollBtn.classList.remove("hidden");
     }else {
       $scrollBtn.classList.add("hidden");
